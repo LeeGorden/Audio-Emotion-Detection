@@ -13,33 +13,36 @@ The task is to visualize audio MP4 file into **Mel-Spectrograms** images and app
 <details open>
 <summary>Methodology</summary>
 
+Pipeline of audioemotion detection is as follows:
+  
+![image](https://user-images.githubusercontent.com/72702872/169657071-3aaa1789-1a39-4fef-8d28-856c25de0895.png)
+
 <details open>
 <summary>Data Preprocess</summary>
 
 - Transferring MP4 audio file to Mel-Spectrograms:
 
-  In this task, to achieve prediction of audio motion, we transferred MP4 files to Mel-Spectrograms images with sequence information in it. 
+  In this task, to achieve prediction of audio motion, we transferred MP4 files to Mel-Spectrograms images with sequence information in it. Pipeline of transferring MP4 audio file to Mel-Spectrograms is as follows:
+  
+  ![image](https://user-images.githubusercontent.com/72702872/169658800-0fa1230c-e94d-4227-af62-37af97b01e69.png)
+
   
   Mel-Spectrograms has the following merits when dealing with signals:
   
   (1). Spectrogram is able to split different component within audio signal so that we can find out possible features.
   
   (2). Mel is a algorithms to identify difference between high-frequence sound more clearly. My introducing Mel-Spectrograms, we try to prepare the audio files to well-prepared images containing information of audio emotion.
+  
+  ![image](https://user-images.githubusercontent.com/72702872/169658825-b1a40927-332d-4073-bbd8-1131d15c211d.png)
 
 </details>  
 
 <details open>
-<summary>Descriptive Analysis</summary>
-
-- Comment Score Distribution:
-  
-</details>   
-
-<details open>
 <summary>Model Training</summary>
 
-- In topic modeling, bag-of-words vectorization is applied. The best topic number is defined based on Perplexity.
-- In model predicting score, different tokenizing methods including Word Bag, TF-IDF + UniGram, TF-IDF + UniGram, TF-IDF + Uni&BiGram, TF-IDF BiGram.
+The detailed structure of the model is as follows:
+  
+![image](https://user-images.githubusercontent.com/72702872/169658893-177915f4-e939-44fc-b7e2-db89978f3759.png)
 
 </details>
 
@@ -47,26 +50,11 @@ The task is to visualize audio MP4 file into **Mel-Spectrograms** images and app
 
 <details open>
 <summary>Result</summary>
-<details open>
-<summary>Data Balancing</summary>
-
-- After applying Down-Sampling(random sampling) and Up-Sampling(Back Translation), score distribution is as follow:
-
   
-
-</details>
-
-
 <details open>
 <summary>Model Performance</summary>
 
-- Final topic modeling result:
-  
-  
-
-- Final prediction model result:
-  
-  
+![image](https://user-images.githubusercontent.com/72702872/169658939-81d88433-aa89-4f00-9853-6448d5a525e8.png)
 
 </details>
 
