@@ -33,12 +33,6 @@ The task is to visualize audio MP4 file into **Mel-Spectrograms** images and app
 
 - Comment Score Distribution:
   
-  
-  
-  ![image-20220517001721652](C:\Users\LiGoudan\AppData\Roaming\Typora\typora-user-images\image-20220517001721652.png)
-
-  
-
 </details>   
 
 <details open>
@@ -46,6 +40,8 @@ The task is to visualize audio MP4 file into **Mel-Spectrograms** images and app
 
 - In topic modeling, bag-of-words vectorization is applied. The best topic number is defined based on Perplexity.
 - In model predicting score, different tokenizing methods including Word Bag, TF-IDF + UniGram, TF-IDF + UniGram, TF-IDF + Uni&BiGram, TF-IDF BiGram.
+
+</details>
 
 </details>
 
