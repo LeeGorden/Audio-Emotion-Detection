@@ -11,15 +11,20 @@ The task is to visualize audio MP4 file into **Mel-Spectrograms** images and app
 </details>
 
 <details open>
-<summary>Step</summary>
-The whole project include the following steps
+<summary>Methodology</summary>
 
 <details open>
 <summary>Data Preprocess</summary>
 
 - Transferring MP4 audio file to Mel-Spectrograms:
 
-  Dealing with data imbalance. In this project, Up-Sampling and Down-Sampling is used to balance data with different score. More detailly, in Up-Sampling, Back Translation is applied via google API to generate comments under minority score.
+  In this task, to achieve prediction of audio motion, we transferred MP4 files to Mel-Spectrograms images with sequence information in it. 
+  
+  Mel-Spectrograms has the following merits when dealing with signals:
+  
+  (1). Spectrogram is able to split different component within audio signal so that we can find out possible features.
+  
+  (2). Mel is a algorithms to identify difference between high-frequence sound more clearly. My introducing Mel-Spectrograms, we try to prepare the audio files to well-prepared images containing information of audio emotion.
 
 </details>  
 
