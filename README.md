@@ -63,17 +63,17 @@ The detailed structure of the model is as follows:
 <details open>
 <summary>Reference</summary>
 
-[1] World Meteorological Organization (WMO). 2009. Weather and Climate Change 
-Implications for Surface Transportation in the USA. Available at https://public.wmo.int/ 
-as of 2009.
+[1] J. Futrelle and J. S. Downie. Interdisciplinary communities and research issues in music information retrieval. InProc. Int’l Conf. Music Information Retrieval, pages 121–131, 2002.
 
-[2] United States Department of Transportation. 2020. Transportation Statistics Annual 
-Report 2020 Available at https://fdd.bts.gov/freight-data-dictionary/ as of 2020
+[2] Xu Youzheng. Research and Application of Music Classification Based on Convolutional Neural Network[D], Nanjing University of Posts and Telecommunications, pages 3–20, 2018
 
-[3] U.S. Energy information Administration. 2020. Available at https://www.eia.gov/ as of 
-2020
+[3] Ling Yuhui. Content-Based Music Recommender System Using Deep Learning[D]. Xiamen University, pages 20–30, 2018
 
-[4] Quora Answer Board. 2020 Available at https://www.quora.com/How-many-milescan-the-average-semi-truck-pull-a-full-load-without-refueling as of 201
+[4] Chen Changfeng. Music Audio Sentiment Classification based on CNN-LSTM[J]. Communications Techonology
+
+[5]. Bo Hongjian. Research and Implementation on Deep-learning-Based Facial Recognition[D]. Harbin Institute of Technology, pages 26-40. 2019
+
+[6]. Baoguang Shi, Xiang Bai and Cong Yao. An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition. School of Electronic Information and Communications Huazhong University of Science and Technology[D]. Wuhan, China, pages 5-6, 2015
 
 </details>
 
